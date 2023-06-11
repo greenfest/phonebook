@@ -161,3 +161,6 @@ def print():
         string_count = count
 
     return render_template('print.html', data=data, count=string_count)
+
+if __name__ == '__main__':
+ app.run(host='0.0.0.0')
